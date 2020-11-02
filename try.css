@@ -10,3 +10,9 @@ h1{
 h2{
     color: darkslateblue
 }
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
