@@ -1,18 +1,38 @@
 body {
   margin: 0;
-  font-family: arial, sans-serif;
   line-height: 1.5;
-    color: blue;
+    color: green;
+    font-family:'Rubik', sans-serif;
+
 }
 h1{
-    color: chartreuse
+    color: gold;
+    font-family: 'Bellefair', serif;
+    font-size: 48px
+
 }
 h2{
-    color: darkslateblue
+    color: goldenrod;
+    font-family: 'Bellefair', serif;
+    font-size: 30px
+    
 }
 
 img {
   max-width: 100%;
   width: auto;
   height: auto;
+}
+
+
+ul {
+    font-weight: 700;
+}
+
+h2 {
+    
+}
+
+li {
+    font-weight: 700;
 }
