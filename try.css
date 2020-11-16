@@ -1,26 +1,26 @@
 body {
-  margin: 0;
-  line-height: 1.5;
-    color:brown;
+    margin: 0;
+    line-height: 1.5;
+    color: brown;
     font-family: 'Rubik', sans-serif;
 }
-h1{
-    color:midnightblue;
+
+h1 {
+    color: midnightblue;
     font-family: 'Bellefair', serif;
     font-size: 48px
-
 }
-h2{
-    color:deeppink;
+
+h2 {
+    color: deeppink;
     font-family: 'Bellefair', serif;
     font-size: 30px
-    
 }
 
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 
@@ -28,11 +28,14 @@ ul {
     font-family: 'Rubik', sans-serif;
 }
 
-h2 {
-    
-}
+h2 {}
 
 li {
-    
+
     font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
 }
