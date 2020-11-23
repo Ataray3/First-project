@@ -39,3 +39,29 @@ li {
     max-width: 800px;
     margin: auto;
 }
+
+.cta {
+    background: pink;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+
+
+
+
+}
+
+.cta h3 {
+    color: black;
+}
+
+
+
+.button {
+    background: blue;
+    color:white;
+    text-decoration: none;
+    padding: 14px;
+
+}
