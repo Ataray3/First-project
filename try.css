@@ -1,7 +1,7 @@
 body {
     margin: 0;
     line-height: 1.5;
-    color: brown;
+    color: #b87a35;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -41,27 +41,37 @@ li {
 }
 
 .cta {
-    background: azure;
+    background: #f4e6c1;
     font-size: 21px;
-    text-align: center;
     padding: 20px;
-    color: black;
-
-
-
+    color: #b87a35;
+    overflow: hidden;
 
 }
 
 .cta h3 {
-    color: black;
+    color: #d49045;
 }
 
 
 
 .button {
-    background: blue;
-    color:white;
+    background: #5d80a8;
+    color: white;
     text-decoration: none;
     padding: 14px;
 
+
+}
+
+.alignleft {
+    max-width: 40%;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+
+}
+
+.cookie {
+    margin-left: 70px;
 }
