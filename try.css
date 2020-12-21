@@ -78,14 +78,44 @@ li {
 
 .news {
     padding: 60px;
-    background: url(img/bg2.jpg);
+    background-image: linear-gradient(rgb(233 30 99 / 58%), rgb(33 150 243 / 47%)), url(img/bg2.jpg);
     background-position: center;
     background-size: cover;
 
     font-size: 24px;
-    color: #000;
+    color: #fff;
 }
 
 .news h2 {
-    color: #fb5c3f;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+input {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 2px solid;
+    #fff;
+    padding: 5px;
+}
+
+label {
+    margin-bottom: 20px;
+    display: block;
+}
+
+label span {
+    display: inline-block;
+    width: 100px;
+}
+
+.news .button {
+    background: none;
+    padding: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
