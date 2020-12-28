@@ -119,3 +119,14 @@ label span {
     padding-right: 5px;
 
 }
+
+input:focus {
+    outline: 0;
+    background: white;
+    color: rgb(233 30 99 / 100%);
+}
+
+.news .button:hover {
+    background: #fff;
+    color: rgb(233 30 99 / 100%);
+}
