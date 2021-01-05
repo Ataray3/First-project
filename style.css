@@ -11,9 +11,9 @@ h1, h2, h3, h4, .button {
 
 
 .about {
-    background:#5b9fb5;
+    background:#d8d8d8;
     font font-size: 21px;
-    color:whitesmoke;
+    color:#154d9c;
 }
 
 .container {
@@ -41,9 +41,9 @@ h1{
   display: block;
 }
 .button {
-  color: #fff;
+  color: #154d9c;
     text-decoration: none;
-    border: 3px solid #fff;
+    border: 3px solid #dcc235;
     padding: 14px 20px;
     display: inline-block;
     margin-top: 10px;
@@ -56,5 +56,5 @@ h1{
 }
 .button:hover{
     background: #fff;
-    color: #000;
+    color: #dcc235;
 }
