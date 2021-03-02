@@ -17,7 +17,7 @@ body {
     font-family: 'almoni-neue';
     font-weight: 400;
     line-height: 1.5;
-
+    background: #000;
 
 }
 
@@ -37,14 +37,10 @@ img {
 }
 
 
-p {
-    font-size: 16px;
-    max-width: 600px;
-}
 
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 10), rgba(0, 0, 0, 0.0)),
+    background-image: linear-gradient(rgba(255, 255, 255, 255), rgba(0, 0, 0, 0.6)),
         url(img/background.jpg);
     background-position: center;
     background-size: cover;
@@ -54,4 +50,17 @@ p {
 
 }
 
-color #d62628;
+
+h2 {
+    color: #F68A1E;
+
+}
+
+.button {
+ text-decoration: none;
+    color: #fff;
+    background:#F68A1E;
+    padding: 10px 40px;
+    display: inline-block;
+
+}
