@@ -52,8 +52,7 @@ h1:after {
 img {
     max-width: 100%;
     width: auto;
-    height: auto;
-
+    height: 200px;
 }
 
 
@@ -90,9 +89,14 @@ img {
 
 .container {
     max-width: 980px;
-    margin: 50px;
+    margin: auto;
 }
 
 a {
     color: #fff;
+}
+
+.banner.container {
+    max-width: 600px;
+
 }
