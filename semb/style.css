@@ -19,10 +19,6 @@ body {
     line-height: 1.5;
     background: #000;
     color: #fff;
-
-
-
-
 }
 
 
@@ -66,7 +62,7 @@ img {
     text-align: center;
     padding: 50px 0;
     color: #fff;
-
+    background-attachment:fixed;
 }
 
 
@@ -99,4 +95,25 @@ a {
 .banner.container {
     max-width: 600px;
 
+}
+
+.features {
+    background: #000;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 60px;
+}
+
+.features img {
+    max-width: 100px;
+}
+
+.features h2:after {
+    margin: auto;
 }
