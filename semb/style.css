@@ -17,7 +17,7 @@ body {
     font-family: 'almoni-neue';
     font-weight: 400;
     line-height: 1.5;
-    background: #000;
+    background: #4A566E;
     color: #fff;
 }
 
@@ -60,9 +60,11 @@ img {
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 0;
     color: #fff;
-    background-attachment:fixed;
+    background-attachment: fixed;
+    position: relative;
+
 }
 
 
@@ -100,7 +102,7 @@ a {
 .features {
     background: #000;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .features ul {
@@ -113,6 +115,8 @@ a {
 
 .features img {
     max-width: 100px;
+    height: auto;
+
 }
 
 .features h2:after {
@@ -120,12 +124,46 @@ a {
 }
 
 footer {
-  background: #000;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
-}
-footer a {
-  color: #F68A1E;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+
 }
 
+footer a {
+    color: #F68A1E;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+}
+
+.social {
+    margin: 0 40px;
+}
+
+.social a {
+    margin: 0 5px;
+}
+
+.custom-shape-divider-bottom-1617007744 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1617007744 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+}
+
+.custom-shape-divider-bottom-1617007744 .shape-fill {
+    fill: #000000;
+}
