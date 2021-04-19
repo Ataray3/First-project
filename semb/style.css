@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    font-family: 'almoni-neue';
+    font-family: 'spacer';
     font-weight: 400;
     line-height: 1.5;
     background: #8e8f8f;
@@ -24,9 +24,10 @@ body {
 
 
 h1 {
-    font-family: 'spacer';
+    font-family: 'almoni-neue';
     font-weight: 700;
-    font-size: 34px;
+    font-size: 30px;
+    
 }
 
 h2 {
@@ -37,8 +38,8 @@ h2 {
 
 h1:after {
     content: "";
-    border-bottom: 2px solid #fff;
-    width: 90px;
+    border-bottom: 4px solid #F68A1E;
+    width: 200px;
     display: block;
     margin: auto;
 }
@@ -55,7 +56,7 @@ img {
 
 
 .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 255), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
         url(img/background.jpg);
     background-position: center;
     background-size: cover;
@@ -95,21 +96,33 @@ img {
 nav ul {
     list-style: none;
     padding: 0;
+    padding-top: 20px;
     display: flex;
-    justify-content: center;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+    
 
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    display: block;
-    font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+  border-bottom: 3px solid transparent;
+    font-size: 18px;
+}
+nav a:hover {
+  border-bottom-color: #F68A1E;
+    background: rgba(0,0,0,0.5);
 }
 
+.current a {
+    font-weight: bold;
+    color: #000;
+
+}
 a {
     color: #fff;
 }
@@ -191,6 +204,7 @@ footer img {
 .presents {
     text-align: center;
     padding: 24px;
+    
 }
 
 
