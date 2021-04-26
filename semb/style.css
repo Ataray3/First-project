@@ -30,6 +30,11 @@ h1 {
     
 }
 
+.banner h1{
+    font-weight: 400;
+}
+
+
 h2 {
     color: #F68A1E;
 
@@ -49,10 +54,12 @@ h1:after {
 img {
     max-width: 100%;
     width: auto;
-    height: 200px;
+    height: auto;
 }
 
-
+header img{
+    height: 200px;
+}
 
 
 .banner {
