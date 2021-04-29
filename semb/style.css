@@ -12,9 +12,31 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'almoni-neue';
+    src: url('fonts/almoni-neue/300/almoni-neue-aaa-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spoiler';
+    src: url('fonts/spoiler/400/fbspoiler-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spoiler';
+    src: url('fonts/spoiler/700/fbspoiler-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
-    font-family: 'spacer';
+    font-family: 'almoni-neue';
     font-weight: 400;
     line-height: 1.5;
     background: #8e8f8f;
@@ -24,14 +46,14 @@ body {
 
 
 h1 {
-    font-family: 'almoni-neue';
-    font-weight: 700;
+    font-family: 'spoiler';
+    font-weight: 400;
     font-size: 30px;
     
 }
 
 .banner h1{
-    font-weight: 400;
+    font-weight: 700;
 }
 
 
@@ -108,6 +130,7 @@ nav ul {
     justify-content: space-between;
     width: 400px;
     margin: auto;
+    font-weight: 300;
     
 
 }
@@ -143,6 +166,8 @@ a {
     background: #000;
     text-align: center;
     padding: 40px;
+
+
 }
 
 .features ul {
