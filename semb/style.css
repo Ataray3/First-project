@@ -47,12 +47,12 @@ body {
 
 h1 {
     font-family: 'spoiler';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 30px;
-    
+
 }
 
-.banner h1{
+.banner h1 {
     font-weight: 700;
 }
 
@@ -79,8 +79,36 @@ img {
     height: auto;
 }
 
-header img{
+header img {
     height: 200px;
+}
+
+.menu .banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+        url(img/menu-img2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.present .banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+        url(img/present-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact .banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+        url(img/contact-img2.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.about .banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+        url(img/about-img.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -108,6 +136,7 @@ header img{
     display: inline-block;
     transition: .3s;
 
+
 }
 
 .button:hover {
@@ -131,21 +160,22 @@ nav ul {
     width: 400px;
     margin: auto;
     font-weight: 300;
-    
+
 
 }
 
 nav a {
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  display: block;
-  border-bottom: 3px solid transparent;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-bottom: 3px solid transparent;
     font-size: 18px;
 }
+
 nav a:hover {
-  border-bottom-color: #F68A1E;
-    background: rgba(0,0,0,0.5);
+    border-bottom-color: #F68A1E;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .current a {
@@ -153,6 +183,7 @@ nav a:hover {
     color: #000;
 
 }
+
 a {
     color: #fff;
 }
@@ -236,18 +267,73 @@ footer img {
 .presents {
     text-align: center;
     padding: 24px;
-    
+
 }
 
 
 .gallery {
-list-style: none; 
- padding: 0;
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- grid-gap: 20px;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.gallery img{
- display: block;
+.gallery img {
+    display: block;
+}
+
+
+.price-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    columns: 2;
+    column-gap: 40px;
+}
+
+.price-list li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 2px solid #c7a17a;
+    height: 1em;
+    margin: 0 5px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.price-wrap {
+    padding: 56px 0;
+}
+
+.price-wrap img {
+    width: 80px;
+    margin: auto;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.price-wrap h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.price-wrap h2:after {
+    margin: auto;
+}
+
+.background {
+    background: #000;
+}
+
+.contact .price-list {
+  columns:1;
+  max-width: 400px;
+    margin: auto;
 }
