@@ -350,7 +350,7 @@ footer img {
 }
 
 .team li {
-    margin: 10px;
+    margin: 20px;
 }
 
 .team h3,
@@ -365,3 +365,53 @@ footer img {
 .team p{
     color: #000; 
 }
+
+form {
+  width: 350px;
+  margin: auto;
+    padding: 30px;
+}
+
+.kesher h1{
+    text-align: center;
+}
+
+input, textarea {
+  font: inherit;
+  color: #000;
+  display: block;
+  border: 0;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.8);
+}
+::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+textarea {
+  height: 200px;
+}
+label {
+  margin-bottom: 20px;
+  display: block;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  background: #fff;
+  color: #F68A1E;
+
+  }
+
+
+
+
+
+
+
