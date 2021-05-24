@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <title>תמונות ברמות</title>
     <link rel="stylesheet" href="style.css">
+    <!-- jQuery 1.8 or later, 33 KB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 
 <body>
@@ -63,27 +69,19 @@
     </div>
 
     <div class="container">
-        <div class="presents">
-          
-            <h2>קטלוג מתנות</h2>
-            <ul class="gallery">
-                <li><img src="img/1.jpg" alt="">גלגל ענק</li>
-                <li><img src="img/2.jpg" alt=""> מטען נייד לפלאפון עם מראת איפור</li>
-                <li><img src="img/3.jpg" alt="">אבן בזלת אליפסה</li>
-                <li><img src="img/4.jpg" alt="">מגן קריסטל עבה </li>
-                <li><img src="img/5.jpg" alt="">חולצה לרכב</li>
-                <li><img src="img/6.jpg" alt="">ספל פלא שחור</li>
-                <li><img src="img/7.jpg" alt="">שעון עץ שולחני עם רגל פרספקס </li>
-                <li><img src="img/8.jpg" alt="">שלג לבבות בגדלים שונים</li>
-                <li><img src="img/9.jpg" alt="">מצת אלקטרוני עם מטען </li>
-            </ul>
-             <div class="container">
+       <div class="fotorama"  data-direction="rtl" data-nav="thumbs" data-thumbwidth="100" data-fit="cover" data-width="100%" data-ratio="30/20" data-autoplay="4000"
+>
+       <img src="img/1.jpg" alt="">
+       <img src="img/2.jpg" alt="">
+       <img src="img/3.jpg" alt="">
+       <img src="img/4.jpg" alt="">
+       <img src="img/5.jpg" alt="">
+       <img src="img/6.jpg" alt="">
+        </div>
 
             <a href="presents.html" class="button">לקטלוג המתנות המלא></a>
         </div>
-        </div>
-    </div>
-
+    
     <footer>
 
         <p>&copy; תמונות ברמות 2021 |
