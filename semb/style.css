@@ -39,7 +39,7 @@ body {
     font-family: 'almoni-neue';
     font-weight: 400;
     line-height: 1.5;
-    background: #8e8f8f;
+    background: #4b4d50;
     color: #fff;
 }
 
@@ -135,13 +135,14 @@ header img {
     padding: 10px 40px;
     display: inline-block;
     transition: .3s;
-
+    margin-top: 20px;
 
 }
 
 .button:hover {
     background: #000;
     color: #F68A1E;
+    
 }
 
 .container {
@@ -277,10 +278,12 @@ footer img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    
 }
 
 .gallery img {
     display: block;
+    position: relative;
 }
 
 
@@ -409,10 +412,132 @@ input:focus, textarea:focus {
 
   }
 
+.fotowrap {
+    max-width: 500px;
+    text-align: center;
+    margin: 40px auto;
+    
+}
 
+.caption {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom: ;
+  left: ;
+}
 
+.caption2 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:23px ;
+  left: ;
+    right: ;
+    top:;
+}
 
+.caption3 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:229px;
+  left: 166px ;
+    right: ;
+    top: ;
+}
 
+.caption4 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:23px;
+  left:172px ;
+    right: ;
+    top: ;
+}
+.caption5 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:229px;
+  left:398px ;
+    right: ;
+    top: ;
+}
 
+.caption6 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:23px ;
+  left:390px;
+    right: ;
+    top:;
+}
 
+.caption7 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:-184px ;
+  left:396px;
+    right: ;
+    top:;
+}
 
+.caption8 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:-184px;
+  left:173px ;
+    right: ;
+    top: ;
+}
+
+.caption9 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background: #F68A1E;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom:-184px ;
+  left: ;
+    right: ;
+    top:;
+}
