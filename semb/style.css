@@ -283,7 +283,6 @@ footer img {
 
 .gallery img {
     display: block;
-    position: relative;
 }
 
 
@@ -313,6 +312,7 @@ footer img {
 
 .price-wrap {
     padding: 56px 0;
+    text-align: center;
 }
 
 .price-wrap img {
@@ -427,8 +427,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom: ;
-  left: ;
+  right: 0;
+    top: 0;
 }
 
 .caption2 {
@@ -439,10 +439,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:23px ;
-  left: ;
-    right: ;
-    top:;
+    right:0 ;
+    top:0;
 }
 
 .caption3 {
@@ -453,10 +451,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:229px;
-  left: 166px ;
-    right: ;
-    top: ;
+  right: 0;
+    top: 0;
 }
 
 .caption4 {
@@ -467,10 +463,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:23px;
-  left:172px ;
-    right: ;
-    top: ;
+  right: 0;
+    top: 0;
 }
 .caption5 {
   font-size: 16px;
@@ -480,10 +474,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:229px;
-  left:398px ;
-    right: ;
-    top: ;
+  right: 0;
+    top: 0;
 }
 
 .caption6 {
@@ -494,10 +486,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:23px ;
-  left:390px;
-    right: ;
-    top:;
+  right: 0;
+    top: 0;
 }
 
 .caption7 {
@@ -508,10 +498,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:-184px ;
-  left:396px;
-    right: ;
-    top:;
+  right: 0;
+    top: 0;
 }
 
 .caption8 {
@@ -522,10 +510,8 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:-184px;
-  left:173px ;
-    right: ;
-    top: ;
+  right: 0;
+    top: 0;
 }
 
 .caption9 {
@@ -536,8 +522,11 @@ input:focus, textarea:focus {
   color: #fff;
   padding: 5px;
   position: absolute;
-  bottom:-184px ;
-  left: ;
-    right: ;
-    top:;
+  right: 0;
+    top: 0;
+}
+
+.gallery li {
+    position: relative;
+    
 }
