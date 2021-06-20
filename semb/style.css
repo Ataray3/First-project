@@ -20,6 +20,13 @@
 }
 
 @font-face {
+    font-family: 'almoni-neue';
+    src: url('fonts/almoni-neue/700/almoni-neue-aaa-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'spoiler';
     src: url('fonts/spoiler/400/fbspoiler-regular-webfont.woff') format('woff');
     font-weight: 400;
@@ -81,31 +88,32 @@ img {
 
 header img {
     height: 200px;
+    filter: invert(1) saturate(0) brightness(6)
 }
 
 .menu .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(151, 99, 150, 0.8), rgba(0, 0, 0, 0.6)),
         url(img/menu-img2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .present .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(130, 131, 151, 0.9), rgba(0, 0, 0, 0.6)),
         url(img/present-img.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .contact .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(100, 160, 100, 0.9), rgba(0, 0, 0, 0.6)),
         url(img/contact-img2.jpg);
     background-position: bottom;
     background-size: cover;
 }
 
 .about .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(58, 85, 111, 0.9), rgba(0, 0, 0, 0.6)),
         url(img/about-img.jpg);
     background-position: center;
     background-size: cover;
@@ -113,7 +121,7 @@ header img {
 
 
 .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(96, 102, 114, 0.9), rgba(0, 0, 0, 0.6)),
         url(img/background.jpg);
     background-position: center;
     background-size: cover;
@@ -122,9 +130,7 @@ header img {
     color: #fff;
     background-attachment: fixed;
     position: relative;
-
 }
-
 
 
 
@@ -136,13 +142,12 @@ header img {
     display: inline-block;
     transition: .3s;
     margin-top: 20px;
-
 }
 
 .button:hover {
     background: #000;
     color: #F68A1E;
-    
+
 }
 
 .container {
@@ -161,8 +166,6 @@ nav ul {
     width: 400px;
     margin: auto;
     font-weight: 300;
-
-
 }
 
 nav a {
@@ -180,8 +183,7 @@ nav a:hover {
 }
 
 .current a {
-    font-weight: bold;
-    color: #000;
+    font-weight: 700;
 
 }
 
@@ -278,7 +280,7 @@ footer img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    
+
 }
 
 .gallery img {
@@ -361,172 +363,90 @@ footer img {
     margin: 0;
 }
 
-.team img{
+.team img {
     border-radius: 50%;
 }
 
-.team p{
-    color: #000; 
+.team p {
+    color: #000;
 }
 
 form {
-  width: 350px;
-  margin: auto;
+    width: 350px;
+    margin: auto;
     padding: 30px;
 }
 
-.kesher h1{
+.kesher h1 {
     text-align: center;
 }
 
-input, textarea {
-  font: inherit;
-  color: #000;
-  display: block;
-  border: 0;
-  padding: 5px;
-  width: 100%;
-  box-sizing: border-box;
-  background: rgba(255,255,255,0.8);
-}
-::placeholder {
-  color: #000;
-  opacity: 0.5;
-}
+input,
 textarea {
-  height: 200px;
+    font: inherit;
+    color: #000;
+    display: block;
+    border: 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.8);
 }
-label {
-  margin-bottom: 20px;
-  display: block;
-}
-.grid-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-input:focus, textarea:focus {
-  outline: 0;
-  background: #fff;
-  color: #F68A1E;
 
-  }
+::placeholder {
+    color: #000;
+    opacity: 0.5;
+}
+
+textarea {
+    height: 200px;
+}
+
+label {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    background: #fff;
+    color: #F68A1E;
+
+}
 
 .fotowrap {
     max-width: 500px;
     text-align: center;
     margin: 40px auto;
-    
+
 }
 
 .caption {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    background: #F68A1E;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    left: 0;
     top: 0;
 }
 
-.caption2 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-    right:0 ;
-    top:0;
-}
-
-.caption3 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
-
-.caption4 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
-.caption5 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
-
-.caption6 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
-
-.caption7 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
-
-.caption8 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
-
-.caption9 {
-  font-size: 16px;
-  margin: 0;
-  text-align: center;
-  background: #F68A1E;
-  color: #fff;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-    top: 0;
-}
 
 .gallery li {
     position: relative;
-    
+
+}
+
+.fotorama_dot.fotorama_dot {
+    border-color: #fff;
+
 }
