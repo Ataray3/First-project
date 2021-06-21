@@ -374,6 +374,7 @@ footer img {
 form {
     width: 350px;
     margin: auto;
+    margin-bottom: 20px;
     padding: 30px;
 }
 
@@ -446,7 +447,7 @@ textarea:focus {
 
 }
 
-.fotorama_dot.fotorama_dot {
+.fotorama__dot.fotorama__dot {
     border-color: #fff;
 
 }
