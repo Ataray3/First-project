@@ -56,8 +56,22 @@ h1 {
     font-family: 'spoiler';
     font-weight: 700;
     font-size: 30px;
-
+    animation: show 1s ease alternate 1;
 }
+
+
+
+@keyframes show {
+    0% {
+        transform: translateY(30px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+
 
 .banner h1 {
     font-weight: 700;
@@ -66,8 +80,9 @@ h1 {
 
 h2 {
     color: #F68A1E;
-
 }
+
+
 
 
 h1:after {
@@ -88,7 +103,7 @@ img {
 
 header img {
     height: 200px;
-    filter: invert(1) saturate(0) brightness(6)
+    filter: invert(1) saturate(0) brightness(6) drop-shadow(0px 2px 0px rgb(0 0 0 / 60%))
 }
 
 .menu .banner {
@@ -142,11 +157,27 @@ header img {
     display: inline-block;
     transition: .3s;
     margin-top: 20px;
+    
+    
 }
 
 .button:hover {
     background: #000;
     color: #F68A1E;
+    animation: my .4s linear alternate infinite;
+}
+    
+    @keyframes my {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+ 
 
 }
 
@@ -238,6 +269,22 @@ footer img {
     width: 30px;
     height: auto;
 }
+
+footer a:hover img {
+    animation: pulse .3s linear alternate infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
 
 .social {
     margin: 0 40px;
@@ -365,8 +412,22 @@ footer img {
 
 .team img {
     border-radius: 50%;
+    filter: drop-shadow(1px 1px 4px rgb(0 0 0 / 40%))
 }
 
+.team img:hover {
+    animation: move .6s linear alternate infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
 .team p {
     color: #000;
 }
@@ -407,6 +468,7 @@ label {
     margin-bottom: 20px;
     display: block;
 }
+
 
 .grid-form {
     display: grid;
@@ -450,4 +512,11 @@ textarea:focus {
 .fotorama__dot.fotorama__dot {
     border-color: #fff;
 
+}
+
+
+.map {
+    margin-top: 56px;
+    text-align: center;
+    display: inline-block;
 }
