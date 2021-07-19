@@ -157,8 +157,8 @@ header img {
     display: inline-block;
     transition: .3s;
     margin-top: 20px;
-    
-    
+
+
 }
 
 .button:hover {
@@ -166,8 +166,13 @@ header img {
     color: #F68A1E;
     animation: my .4s linear alternate infinite;
 }
-    
-    @keyframes my {
+.kesher .button:hover {
+    background:  #4B4D50;
+    color: #F68A1E;
+    animation: my .4s linear alternate infinite;
+}
+
+@keyframes my {
     0% {
         transform: scale(1);
     }
@@ -177,9 +182,7 @@ header img {
     }
 }
 
- 
 
-}
 
 .container {
     max-width: 980px;
@@ -231,9 +234,23 @@ a {
     background: #000;
     text-align: center;
     padding: 40px;
-
-
 }
+
+.features img:hover {
+    animation: moving .2s linear alternate infinite;
+}
+
+@keyframes moving {
+    0% {
+        transform: rotate(5deg)
+    }
+
+    100% {
+        transform: rotate(-5deg)
+    }
+}
+
+
 
 .features ul {
     list-style: none;
@@ -254,7 +271,7 @@ a {
 }
 
 footer {
-    background: #000;
+
     color: #fff;
     text-align: center;
     padding: 12px;
@@ -362,8 +379,30 @@ footer a:hover img {
 .price-wrap {
     padding: 56px 0;
     text-align: center;
+    background: #000;
+    position: relative;
+}
+.custom-shape-divider-bottom-1626690464 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
+.custom-shape-divider-bottom-1626690464 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1626690464 .shape-fill {
+    fill: #4B4D50;
+}
 .price-wrap img {
     width: 80px;
     margin: auto;
@@ -380,6 +419,8 @@ footer a:hover img {
     margin: auto;
 }
 
+
+
 .background {
     background: #000;
 }
@@ -393,6 +434,28 @@ footer a:hover img {
 .team-wrap {
     padding: 30px 0;
     text-align: center;
+    position: relative;
+}
+
+.custom-shape-divider-top-1626688699 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626688699 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626688699 .shape-fill {
+    fill: #000000;
 }
 
 .team {
@@ -428,6 +491,7 @@ footer a:hover img {
         transform: scale(1.1);
     }
 }
+
 .team p {
     color: #000;
 }
@@ -435,8 +499,8 @@ footer a:hover img {
 form {
     width: 350px;
     margin: auto;
-    margin-bottom: 20px;
-    padding: 30px;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 
 .kesher h1 {
@@ -487,9 +551,30 @@ textarea:focus {
 .fotowrap {
     max-width: 500px;
     text-align: center;
-    margin: 40px auto;
-
+    margin: auto;
 }
+
+.custom-shape-divider-top-1626682638 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626682638 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626682638 .shape-fill {
+    fill: #000000;
+}
+
 
 .caption {
     font-size: 16px;
@@ -502,6 +587,21 @@ textarea:focus {
     left: 0;
     top: 0;
 }
+
+.caption:hover {
+    animation: growing .4s linear alternate infinite;
+}
+
+@keyframes growing {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
 
 
 .gallery li {
@@ -516,7 +616,154 @@ textarea:focus {
 
 
 .map {
-    margin-top: 56px;
+    padding-top: 30px;
+    padding-bottom: 70px;
     text-align: center;
-    display: inline-block;
+    position: relative;
 }
+
+.map img {
+    width: 80px;
+    margin: auto;
+    display: block;
+
+}
+
+.custom-shape-divider-top-1626682580 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626682580 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626682580 .shape-fill {
+    fill: #4B4D50;
+}
+
+.custom-shape-divider-bottom-1626690218 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626690218 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1626690218 .shape-fill {
+    fill: #000;
+}
+
+.part {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.custom-shape-divider-top-1626688842 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626688842 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626688842 .shape-fill {
+    fill: #000000;
+}
+
+
+.map h2 {
+    margin-top: 0;
+
+}
+
+.goals {
+    background: #000;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.goals img:hover {
+    animation: moving .2s linear alternate infinite;
+}
+
+@keyframes moving {
+    0% {
+        transform: rotate(3deg)
+    }
+
+    100% {
+        transform: rotate(-3deg)
+    }
+}
+
+
+.goals ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.goals img {
+    max-width: 100px;
+    height: 100px;
+
+}
+
+.goals h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.custom-shape-divider-top-1626682638 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626682638 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 36px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626682638 .shape-fill {
+    fill: #4B4D50;
+}
+
+
